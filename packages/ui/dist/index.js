@@ -58,7 +58,7 @@ var Shell = ({
     header: /* @__PURE__ */ import_react.default.createElement(import_core.Header, {
       height: 60,
       p: "xs",
-      style: { background: theme.colors.blue[8] }
+      style: { display: "flex", background: theme.colors.blue[8] }
     }, /* @__PURE__ */ import_react.default.createElement(import_core.Title, {
       style: { color: "white" }
     }, title), /* @__PURE__ */ import_react.default.createElement(import_core.Box, {

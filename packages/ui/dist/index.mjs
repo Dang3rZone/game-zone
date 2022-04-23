@@ -36,7 +36,7 @@ var Shell = ({
     header: /* @__PURE__ */ React.createElement(Header, {
       height: 60,
       p: "xs",
-      style: { background: theme.colors.blue[8] }
+      style: { display: "flex", background: theme.colors.blue[8] }
     }, /* @__PURE__ */ React.createElement(Title, {
       style: { color: "white" }
     }, title), /* @__PURE__ */ React.createElement(Box, {
