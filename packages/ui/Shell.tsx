@@ -28,7 +28,11 @@ export const Shell: React.FunctionComponent<{ title: string }> = ({
         },
       }}
       header={
-        <Header height={60} p="xs" style={{ background: theme.colors.blue[8] }}>
+        <Header
+          height={60}
+          p="xs"
+          style={{ display: 'flex', background: theme.colors.blue[8] }}
+        >
           <Title style={{ color: 'white' }}>{title}</Title>
           <Box sx={{ flexGrow: 1 }}></Box>
           {user && (
